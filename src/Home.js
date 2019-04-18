@@ -1,4 +1,5 @@
 import React from 'react';
+import HOME_IMAGE from './home-image.jpeg';
 
 const Home = () => (
   <div className="home">
@@ -6,9 +7,7 @@ const Home = () => (
     <p>
       This is an example website.
     </p>
-    <img
-      alt="Coffee Beans"
-      src="http://tiny.cc/pysc5y" />
+    <img alt="Coffee Beans" src={HOME_IMAGE} />
     <p>
       We sell coffee beans. Finest quality.
     </p>
