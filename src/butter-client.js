@@ -1,6 +1,11 @@
 import Butter from 'buttercms'
-import API_KEY from './apiKey';
 
-const butter = Butter(API_KEY)
+// Import your API KEY and use here
+// import API_KEY from './apiKey';
+
+// I'll use Netlify env variables for the sake of this repo
+const API_KEY = process.env.BUTTER_API_KEY;
+
+const butter = Butter(API_KEY);
 
 export default butter
