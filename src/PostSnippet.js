@@ -14,7 +14,7 @@ const PostSnippet = props => {
       </p>
       <div>
         <div>By <strong>{props.author.first_name} {props.author.last_name}</strong></div>
-        <span className="publi-date">Published on {moment(props.published).format("MMMM Do, YYYY")}</span>
+        <span className="publication-date">Published on {moment(props.published).format("MMMM Do, YYYY")}</span>
       </div>
     </div>
   );
